@@ -5,6 +5,7 @@ from src.train import train_model
 from src.store import store_model
 from metadata import MODEL_NAME
 
+
 def main():
     # define the pipeline
     df = load_data(file_name="Churn_Modelling_train_test.csv")
