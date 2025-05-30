@@ -2,7 +2,7 @@ MODELS_FOLDER = "models"
 DATASETS_FOLDER = "datasets"
 MODEL_NAME = "decision-tree-model"
 
-COLUMNS_TO_DROP = ['RowNumber', 'CustomerId', 'Surname']
+COLUMNS_TO_DROP = ["RowNumber", "CustomerId", "Surname"]
 BINARY_FEATURES = [
     "Gender",
 ]

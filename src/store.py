@@ -2,6 +2,7 @@ import joblib
 from datetime import datetime
 from metadata import MODELS_FOLDER
 
+
 def store_model(model, model_name: str) -> None:
     timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
     model_path = f"{MODELS_FOLDER}/class_model-Harry_{model_name}_{timestamp}.joblib"
